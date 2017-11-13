@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Slidefolio</title>
+    <!-- CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- CSS -->
+    <link href="css/slidefolio.css" rel="stylesheet">
+	<!-- Font Awesome -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="top" class="header">
+      <div class="vert-text">
+	  <img class="img-rounded" alt="Company Logo" src="img/logobaru.jpg"/>
+        <h2><em>Wonderful Indonesia</em></h2>
+		 
+			<br>
+			
+      </div>
+    </div>
+    <!-- /Header -->
+	  <div id="nav">
+    <!-- Navigation -->
+    <nav class="navbar navbar-new" role="navigation">
+   <div class="container">
+  <!-- Brand and toggle -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobilemenu">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+	<a href="#" class="navbar-brand">Paradise</a>
+  </div>
+  <div class="collapse navbar-collapse" id="mobilemenu">
+
+	  <ul class="nav navbar-nav navbar-right text-center">
+	    <li><a href="#top"><i class="service-icon fa fa-home"></i>&nbsp;Beranda</a></li>
+        <li><a href="#about"><i class="service-icon fa fa-info"></i>&nbsp;Tentang</a></li>
+        <li><a href="#services"><i class="service-icon fa fa-laptop"></i>&nbsp;Servis</a></li>
+        <li><a href="#portfolio"><i class="service-icon fa fa-camera"></i>&nbsp;Galeri</a></li>
+        <li><a href="#contact"><i class="service-icon fa fa-envelope"></i>&nbsp;Contak</a></li>
+    </ul>
+  </div>
+  </div>
+</nav>
+    
+</div>	
+    <!-- About -->
+    <div id="about" class="about_us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h2>INDONESIA</h2>
+            <p class="lead">Indonesia adalah surganya dunia yang mempesona, keindahan alam, kebudayaan, masyarakat, keanekaragaman suku serta flora dan fauna yang beragam keistimewan yang diberikan Tuhan untuk kita nikmati.</p>
+          </div>
+        </div>
+	  </div>
+    </div>
+    <!-- /About -->
+    <!-- Services -->
+    <div id="services" class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>Our Services</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-camera-retro fa-3x"></i>
+              <h3>Portrait</h3>
+              <p>Keindahan Alam Surga Indonesia Yang Tiada Duanya Untuk Mendunia. </p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="service-item">
+			<i class="service-icon fa fa-camera fa-3x"></i>
+              <h3>Black & white</h3>
+              <p>Alam Keindahan Alam yang Menajubkan dan Mempesona untuk Menyadari Bahwa Indonesia Kaya Akan Berbagai Macam Keindahan.</p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-globe fa-3x"></i>
+              <h3>Nature</h3>
+              <p>Alm Yang Fantastis dan Cantik untuk Memukau Mata dengan Keindahan dan Berbudaya Tinggi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Services -->
+
+    <!-- Portfolio -->
+    <div id="portfolio" class="portfolio">
+    <div class="container">
+    <div class="row push50">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>Koleksi</h2>
+			<h3>
+			<span class="filter label label-default" data-filter="all">ALL</span>
+	<span class="filter label label-default" data-filter="bw">B&amp;W</span>
+	<span class="filter label label-default" data-filter="nature">Nature</span>
+	<span class="filter label label-default" data-filter="portraits">Portraits</span>
+	</h3>
+            <hr>
+          </div>
+        </div>
+		
+		<div class="row">
+		
+		<div class="gallery">
+		
+    		  <ul id="Grid" class="gcontainer">
+    		    <li class="col-md-4 col-sm-4 col-xs-12 mix bw portraits" data-cat="graphics">
+              <a data-toggle="modal" data-target="#portrait1" class="mix-cover">
+                <img class="horizontal" src="img/bnw.jpg" alt="placeholder">
+      		      <span class="overlay"><span class="valign"></span><span class="title">Portrait 1</span></span>
+              </a>                
+      		  </li>
+    		    <li class="col-md-4 col-sm-4 col-xs-12 mix portraits" data-cat="graphics">
+                <a data-toggle="modal" data-target="#portrait2" class="mix-cover">
+                  <img class="horizontal" src="img/Bali1.jpg" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Portrait 2</span></span>
+                </a>                
+      		  </li>
+			  <li class="col-md-4 col-sm-4 col-xs-12 mix nature" data-cat="nature">
+                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
+                  <img class="horizontal" src="img/bromo.jpg" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Nature 1</span></span>
+        		    </a>
+      		  </li>
+      		  <li class="col-md-4 col-sm-4 col-xs-12 mix portraits" data-cat="portraits">
+                <a data-toggle="modal" data-target="#portrait3" class="mix-cover">
+                  <img class="horizontal" src="img/komodo1.jpg" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Portrait 3</span></span>
+        		    </a>
+      		  </li>
+			  <li class="col-md-4 col-sm-4 col-xs-12 mix portraits" data-cat="portraits">
+                <a data-toggle="modal" data-target="#portrait5" class="mix-cover">
+                  <img class="horizontal" src="img/toraja1.jpg" alt="placeholder">
+        		       <span class="overlay"><span class="valign"></span><span class="title">Portrait 5</span></span>
+        		    </a>
+      		  </li>
+			  <li class="col-md-4 col-sm-4 col-xs-12 mix nature" data-cat="nature">
+                <a data-toggle="modal" data-target="#nature" class="mix-cover">
+                  <img class="horizontal" src="img/batumal.jpg" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Nature</span></span>
+        		    </a>
+      		  </li>
+      		  <li class="col-md-4 col-sm-4 col-xs-12 mix portraits" data-cat="portrait">
+                <a data-toggle="modal" data-target="#portrait4" class="mix-cover green">
+                  <img class="vertical" src="img/monas.jpg" alt="portrait 4">
+                  <span class="overlay"><span class="valign"></span><span class="title">Portrait 4</span></span>           
+        		    </a>
+      		  </li>
+			  <li class="col-md-4 col-sm-4 col-xs-12 mix bw nature all" data-cat="portrait">
+                <a data-toggle="modal" data-target="#forest" class="mix-cover green">
+                  <img class="vertical" src="img/forest1.jpg" alt="Forest">
+                   <span class="overlay"><span class="valign"></span><span class="title">Forest</span></span>                    
+        		    </a>
+      		  </li>
+			  <li class="col-md-4 col-sm-4 col-xs-12 mix bw nature all" data-cat="bw">
+                <a data-toggle="modal" data-target="#bw1" class="mix-cover green">
+                  <img class="vertical" src="img/smg.jpg" alt="Black and White">
+                   <span class="overlay"><span class="valign"></span><span class="title">Black &amp; White</span></span>                  
+        		    </a>
+      		  </li>
+    		  </ul>   
+			  
+<!-- Photo in Modal potrait-->			  
+   <div class="modal fade" id="portrait1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Danau Kelimutu</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="Portrait1" src="img/kelimutu.jpg"/><!---gambar setelah potrait1 di klik-->
+       <p>Danau Kelimutu juga dikenal dengan sebutan Danau Tiga Warna karena memang memiliki tiga warna yang berbeda meski berada dalam satu kawasan. Perubahan danau yang terjadi sewaktu-waktu menjadi pehatian utama Danau Kelimutu.Ketiga bagian Danau Kelimutu memiliki nama masing-masing, yakni Tiwa Ata Mbupu yang diyakini sebagai tempat bersemayamnya jiwa orang tua yang telah meninggal, lalu di bagian tengah disebut Danau Tiwa Nuwa Muri Koo Fai atau danau untuk jiwa muda-mudi yang telah meninggal kemudian terakhir Tiwu Ata Polo, sebagai tempat besemayam orang yang selalu berbuat jahat..</p>
+      </div>
+    </div><!-- content -->
+  </div><!-- dialog -->
+</div>
+  <div class="modal fade" id="portrait2" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Bali</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="Portrait1" src="img/Bali2.jpg"/> <!---gambar setelah potrait2 di klik-->
+       <p>Pulau Bali, merupakan pulau yang berada di kawasan Negara Kesatuan Republik Indonesia dan paling terkenal di hampir penjuru Dunia. Pulau ini menyimpan keindahan alam dan keunikan budaya yang masih melekat hingga saat ini. Selain itu keramah tamahan dari penduduknya juga menjadi ciri khas dari Pulau Bali, dan bisa membuat kita betah berlama – lama berwisata ke destinasi yang berjuluk Pulau Dewata ini. Budaya di Bali memang bisa dikatakan terlestarikan dari generasi ke generasi, bukan karena banyaknya wisatawan yang mengunjunginya, melainkan memang komitmen dari warga Bali yang akan terus mempertahankan kebudayaanya sehingga menjadi ciri khas dari Bali sendiri.Pulau Bali juga merupakan tempat berkumpulnya wisatawan yang berasal dari penjuru dunia, mulai dari mereka yang berniat datang untuk menikmati keindahan pegunungan, danau, sampai mereka yang datang dan berniat untuk menikmati keindahan pantai serta berselancar di ombak yang ada di Bali. Tidak hanya itu, banyak juga wisatawan yang datang ke Bali hanya untuk berbelanja dan menghabisakan waktu mereka disini.</p>
+      </div>
+    </div><!-- content -->
+  </div><!-- dialog -->
+</div><!-- modal -->
+
+<div class="modal fade" id="portrait3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Pulau Komodo</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="Portrait1" src="img/komodo.jpg"/><!---gambar setelah potrait3 di klik-->
+       <p>Pulau Komodo merupakan pulau yang juga menjadi habitat hewan langkah di negeri ini. Keberadaannya makin tahun makin menyusut. Tentu mengasyikkan bila kita bisa melihat langsung kehidupan hewan yang dilindungi negara ini. Bukan hanya di Pulau Komodo, habitat komodo juga ada di pulau yang berdekatan dengannya. Seperti di Pulau Rinca. Di pulau tersebut, wisatawan bisa leluasa melihat dan mengamati pola keseharian komodo. Terdapat tempat yang tepat untuk melihat kawanan komodo. Wisatawan bisa mendaki sebuah bukit, yaitu Bukit Ara (538 mdpl). Di atas gunung itu, kawanan komodo banyak hidup secara liar. Selain komodo, satwa lain yang bisa kita lihat, yaitu rusa liar, banteng dan kuda liar, menyimpan keindahan lain, yaitu keindahan bawah laut yang menawan. Anda bisa menyelam dan menikmati kecantikan ratusan spesies trumbu karang, rumput laut, puluhan macam bunga karang, penyu hijau, ribuan spesies ikan termasuk ikan hiu, ikan pari, ikan paus, hingga ikan lumba–lumba.</p>
+      </div>
+    </div><!-- content -->
+  </div><!-- dialog -->
+</div><!-- modal -->
+
+<div class="modal fade" id="portrait4" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Ibu Kota Indonesia Jakarta </h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="Portrait1" src="img/monas.jpg"/><!---gambar setelah potrait3 di klik-->
+       <p>Monumen Nasional atau yang populer disingkat dengan Monas atau Tugu Monas adalah monumen peringatan setinggi 132 meter (433 kaki) yang didirikan untuk mengenang perlawanan dan perjuangan rakyat Indonesia untuk merebut kemerdekaan dari pemerintahan kolonial Hindia Belanda. Pembangunan monumen ini dimulai pada tanggal 17 Agustus 1961 di bawah perintah presiden Sukarno, dan dibuka untuk umum pada tanggal 12 Juli 1975. Tugu ini dimahkotai lidah api yang dilapisi lembaran emasyang melambangkan semangat perjuangan yang menyala-nyala. Monumen Nasional terletak tepat di tengah Lapangan Medan Merdeka, Jakarta Pusat. Monumen dan museum ini dibuka setiap hari mulai pukul 08.00 - 15.00 WIB. Pada hari Senin pekan terakhir setiap bulannya ditutup untuk umum.</p>
+      </div>
+    </div><!-- content -->
+  </div><!-- dialog -->
+</div><!-- modal -->
+
+<div class="modal fade" id="portrait5" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Tana Toraja</h4>
+        
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="Portrait1" src="img/toraja1.jpg"/><!---gambar setelah potrait5 di klik-->
+       <p>Tana Toraja Terkenal dengan masyarakatnya yang masih memegang teguh kepercayaan atau ritual tradisi terhadap nenek moyangnya. Menurut mitos yang telah menyebar dan diceritakan secara turun-temurun di masyarakat Toraja, nenek moyang asli masyarakat Toraja dipercaya berasal dari surga dan turun langsung ke bumi menggunkan tangga. Kemudian Tangga inilah yang dipercaya sebagai media pendekatan diri kepada  Puang Matua (Tuhan dalam kepercayaan masyarakat Toraja).</p>
+      </div>
+    </div><!-- content -->
+  </div><!-- dialog -->
+</div><!-- modal -->
+
+<div class="modal fade" id="nature" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Wisata Alam Batu Malang</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="nature" src="img/batumal.jpg"/><!---gambar setelah nature di klik-->
+      </div>
+      <p>Kota Batu merupakan salah satu kota yang dinobatkan sebagai kota Wisata di daerah Malang. Hal ini dikarenakan kota Batu memiliki berbagai jenis tempat rekreasi yang sangat indah dan patut untuk dikunjungi. Karena lokasinya yang berada di dataran tinggi membuat kota Batu memiliki udara yang sejuk sehingga banyak tanaman sayuran, buah – buahan, serta berbagai bunga tumbuh dengan suburnya. Ada salah satu desa di Kota batu yang memiliki potensi budidaya bunga khususnya bunga mawar, desa yang dimaksudkan adalah Gunungsari.Desa Gunungsari adalah salah satu desa yang terletak di kecamatan Bumiaji, Kota Batu. Desa tersebut unggul dalam pontensi pengembangan budidaya bunga potong mawar dengan skala cukup besar serta memiliki luas wilayah mencapai lebih dari 60 hektar. Lokasi desa Gungsari ini terletak antara daerah perbukitan Gunung Panderman dan Gunung Arjuna. Desa Gunungsari menjadi satu – satunya desa yang memasok bunga mawar potong terbesar di seluruh Indonesia. Bunga mawar potong dari desa Gunungsari bahkan sudah dikirim hingga ke berbagai wilayah kota di Indonesia seperti Semarang, Jakarta, Bandung, dan Pulau Bali.</p>
+    </div><!-- content -->
+  </div><!-- dialog -->
+</div><!-- modal -->
+
+<div class="modal fade" id="nature1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Gunung Bromo Suku Tengger Semeru</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="nature" src="img/bromo.jpg"/><!---gambar setelah nature1 di klik-->
+      </div>
+      <p>Berdasarkan sejarah kata Bromo sendiri berasal dari kata Brahma yaitu salah satu nama Dewa yang di agungkan oleh Agama Hindu.Kawasan wisata gunung Bromo ini menjadi icon kebanggan masyarakat Probolinggo Jawa Timur.Gunung Bromo sendiri juga tidak bisa lepas dari sejarah kerajaan majapahit, dahulu ketika kerajaan majapahit menirima banyak serangan banyak penduduk pribumi yang keluar dari majapahit dan mencari tempat tinggal baru yang lebih aman dan akhirnya mereka terpecah menjadi dua bagian, sebagian dari mereka lari menuju Bali dan sebagian dari mereka yang lain lari ke lereng Bromo yaitu di desa Tengger, sampai sekarang kedua tempat ini memiliki kesamaan yaitu minganut Agama Hindu.Desa Tenger sendiri berasal dari leganda Roro Anteng dan jaka Seger. "Teng" sendiri di ambil dari akhiran nama Roro An-"Teng" dan "ger" di ambil dari akhiran nama joko Se-"ger". Masyarakat sekitar mempercayai Gunung Bromo sebagai Gunung suci masyarakat menyebutnya sebagai gunung  Brahma.Yang menjadikan wisata Gunung Bromo ini tetep di kagumi oleh para wisatawan lokal ataupun mancanegara adalah karna di kawasan ini terdapat kawah gunung yang berdiameterkan 600m, selain kawah Gunung Bromo ada juga obyek wisata yang lain yang gak kalah menarik yaitu, puncak Penanjakan di namakan pananjakan karna jalan menuju wisata ini sangat terjal atau menanjak. Di kawasan Puncak Pananjakan terdapat spot yang pas untuk menikmati terbitnya matahari(sunres). Di sini pengunjung akan disuguhhi panorama alam indah yang tidak bisa didapatkan di tempat lain.Selain itu juga terdapat hamparan pasir yang sangat luas, untuk kalian yang suka selfie tempat ini merupakan salah satu tempat yang menarik untuk kalian karna sekilas tampak ini terlihat seperti sedang berada di gurun pasir Timur Tengah. Lautan pasir ini akan tampak lebih cantik dengan rona jingga apabila matahari sudah mulai kembali ke peraduanya, bahkan fenomena cantik ini bisa di lihat dari Cemorolawang yaitu pintu masuk menuju kawasan wisata Gunung Bromo.</p>
+    </div><!-- content -->
+  </div><!-- dialog -->
+</div><!-- modal -->
+
+
+<div class="modal fade" id="forest" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Taman Nasional Bunaken</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="forest" src="img/forest1.jpg"/><!---gambar setelah forest di klik-->
+      </div>
+      <p>Taman Nasional Bunaken memiliki ekosistem terumbu karang yang sangat kaya. Terdapat sekitar 390 spesies terumbu karang di wilayah ini. Spesies alga yang dapat ditemui di Taman Nasional Bunaken adalah Caulerpa, Halimeda dan Padina, sementara spesies rumput laut yang banyak ditemui adalah Thalassia hemprichii, Enhallus acoroides, dan Thalassaodendronciliatum. Taman Nasional Bunaken juga memiliki berbagai spesies ikan, mamalia laut, reptil, burung, moluska dan mangrove.  Sekitar 90 spesies ikan tinggal di perairan wilayah ini. Di daratan, pulau ini kaya akan Arecaceae, sagu, woka, silar dan kelapa. Selain itu, Taman Nasional Bunaken juga memiliki spesies hewan yang tinggal di daratan, seperti rusa dan kuskus. Hutan mangrove di taman ini menjadi habitat bagi kepiting, lobster, moluska dan burung laut. 
+
+</p>
+    </div><!-- content -->
+  </div><!-- dialog -->
+</div><!-- modal -->
+
+<div class="modal fade" id="bw1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Kota Semarang</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="forest" src="img/smg.jpg"/><!---gambar setelah all b&w di klik-->
+      </div>
+      <p>Sebagai kota terbesar sekaligus ibu kota Provinsi Jawa Tengah, Semarang adalah kota yang ramah bagi wisatawan. Kota yang terletak di pesisir utara ini menawarkan sejumlah destinasi wisata menarik dan mengagumkan. Bagi saya Semarang merupakan kota kedua selain Jakarta, karena Kota Semarang merupakan tempat lahir ayah saya dan beberapa tahun yang lalu kita selalu mudik ke Kota Semarang ini. Yang namanya mudik berwisata di Kota Semarang berasa kurang, karena banyak toko yang tutup, obyek wisata juga penuh wisatawan dan saya selalu mengunjungi saudara-saudara untuk berlebaran. </p>
+    </div><!-- content -->
+  </div><!-- dialog -->
+</div><!-- modal -->
+
+
+<!-- Load Photo -->	
+		</div>	
+      </div>
+		</div>
+      </div>
+    <!-- Portfolio -->
+    <!-- Contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+		<div class="col-md-4 col-md-offset-4 text-center">
+            <h2>Kontak</h2>
+			<hr>
+          </div>
+          <div class="col-md-5 col-md-offset-3">
+		  <!-- contact form starts -->
+            <form action="contact" id="contact-form" class="form-horizontal">
+			<fieldset>
+						    <div class="form-group">
+						      <label class="col-sm-4 control-label" for="name">Nama</label>
+						      <div class="col-sm-8">
+						        <input type="text"  placeholder="Nama" class="form-control" name="nama" id="nama">
+						      </div>
+						    </div>
+						    <div class="form-group">
+						      <label class="col-sm-4 control-label" for="email">Email</label>
+						      <div class="col-sm-8">
+						        <input type="text" placeholder="Email" class="form-control" name="email" id="email">
+						      </div>
+						    </div>
+						    <div class="form-group">
+						      <label class="col-sm-4 control-label" for="subject">Subjek</label>
+						      <div class="col-sm-8">
+						        <input type="text" placeholder="Subjek" class="form-control" name="subject" id="subject">
+						      </div>
+						    </div>
+						    <div class="form-group">
+						      <label class="col-sm-4 control-label" for="message">Pesan</label>
+						      <div class="col-sm-8">
+						        <textarea placeholder="Pesan" class="form-control" name="message" id="message" rows="3"></textarea>
+						      </div>
+						    </div>
+	              <div class="col-sm-offset-4 col-sm-8">
+			            <button type="submit" class="btn btn-success">Proses</button>
+	    			      <button type="reset" class="btn btn-primary">Batal</button>
+	        			</div>
+						</fieldset>
+						</form>
+				
+				<!-- contact  -->		
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Contact -->
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+           <h2>Terimakasih</h2>
+           <em>Copyright &copy; KOPET INSTAN</em>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+    <!-- JavaScript -->
+    <script src="js/jquery.js"></script>
+	<script src="js/jquery-scrolltofixed-min.js"></script>
+	<script src="js/jquery.vegas.js"></script>
+	<script src="js/jquery.mixitup.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/bootstrap.js"></script>
+	
+<!-- Slideshow Background  -->
+	<script>
+$.vegas('slideshow', {
+  delay:5000,
+  backgrounds:[
+     { src:'./img/rajaampat.jpg', fade:2000 },
+	 { src:'./img/Bali2.jpg', fade:2000 },
+    { src:'./img/batumal.jpg', fade:2000 },
+	 { src:'./img/komodo1.jpg', fade:2000 },
+    { src:'./img/monas.jpg', fade:2000 },
+    { src:'./img/pkelimutu.jpg', fade:2000 },
+	 { src:'./img/baliku.jpg', fade:2000 },
+	   { src:'./img/rinjaniku.jpg', fade:2000 }
+	   
+  ]
+})('overlay', {
+src:'./img/overlay.png'
+});
+
+	</script>
+<!-- /Slideshow Background -->
+
+<!-- Mixitup : Grid -->
+    <script>
+		$(function(){
+    $('#Grid').mixitup();
+      });
+    </script>
+<!-- /Mixitup : Grid -->	
+
+    <!-- JavaScript for Smooth Scrolling -->
+    <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+            || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+<!-- Navbar -->
+<script type="text/javascript">
+$(document).ready(function() {
+        $('#nav').scrollToFixed();
+  });
+    </script>
+<!-- /Navbar-->
+	
+  </body>
+
+</html>
